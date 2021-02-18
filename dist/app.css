@@ -61,15 +61,15 @@ header .header-container .navbar-right .search-icon {
   cursor: pointer;
 }
 header .header-container .navbar-right .blue-icon {
-  position: relative;
-  display: inline-block;
   width: 40px;
   height: 40px;
-  margin-left: 7px;
   padding: 10px;
   font-size: 16px;
   background: #E4E9F8;
   border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  margin-left: 7px;
   box-shadow: 0px 1px 5px rgba(47, 85, 212, 0.5);
   cursor: pointer;
 }
@@ -101,21 +101,20 @@ header .header-container .navbar-right .blue-icon:hover i {
 }
 .jumbotron .jumbotron-container-top-box {
   width: 50%;
-  margin: 70px 0 130px 0;
+  margin: 70px 0 110px 0;
 }
 .jumbotron .jumbotron-container-top .first-box {
   padding-top: 100px;
 }
 .jumbotron .jumbotron-container-top .first-box div:first-child a {
   background: #E4E9F8;
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 5px 10px;
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 13px;
 }
 .jumbotron .jumbotron-container-top .first-box h2 {
   margin: 20px 0 30px 0;
-  font-size: 30px;
+  font-size: 40px;
 }
 .jumbotron .jumbotron-container-top .first-box p {
   color: #8492A6;
@@ -124,9 +123,10 @@ header .header-container .navbar-right .blue-icon:hover i {
 .jumbotron .jumbotron-container-top .first-box button {
   margin-right: 5px;
   padding: 10px 16px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 5px;
+  border: 1px solid #2F55D4;
   cursor: pointer;
 }
 .jumbotron .jumbotron-container-top .first-box button:first-of-type {
@@ -137,7 +137,6 @@ header .header-container .navbar-right .blue-icon:hover i {
 .jumbotron .jumbotron-container-top .first-box button:last-of-type {
   color: #2F55D4;
   background: #fff;
-  border: 1px solid #2F55D4;
 }
 .jumbotron .jumbotron-container-top .first-box div:last-child {
   font-size: 13px;
@@ -148,7 +147,7 @@ header .header-container .navbar-right .blue-icon:hover i {
   text-align: right;
 }
 .jumbotron .jumbotron-container-top .second-box img {
-  width: 85%;
+  width: 80%;
   margin-right: 40px;
 }
 .jumbotron .jumbotron-container-bottom {
@@ -161,9 +160,69 @@ header .header-container .navbar-right .blue-icon:hover i {
 }
 
 .jumbotron:first-of-type {
-  border-bottom: 2px solid #E9E5EF;
+  border-bottom: 1px solid #E9E5EF;
 }
 
 .jumbotron:last-of-type {
-  border-radius: 0 0 30% 30%;
+  border-radius: 0 0 20% 20%;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-top .top {
+  width: 630px;
+  margin-top: 100px;
+}
+.main-top .top h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.main-top .top p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  color: #8492A6;
+}
+.main-top .box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-top .box-container .box {
+  padding: 20px;
+  border: 1px solid #E9E5EF;
+  border-radius: 7px;
+  width: calc((100% / 4) - 34px);
+  font-weight: bold;
+}
+.main-top .box-container .box h3 {
+  color: #3C4858;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.main-top .box-container .box p {
+  color: #8492A6;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.main-top .box-container .box .icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  background: #E4E9F8;
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+}
+.main-top .box-container .box .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2F55D4;
+}
+.main-top .box-container .box .read-link {
+  font-size: 12px;
 }
