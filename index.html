@@ -3,26 +3,73 @@
   <head>
     <meta charset="utf-8">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/app.css">
     <title>Landrick</title>
   </head>
   <body>
 
     <!-- app container -->
-    <div class="app">
+    <div id="app">
 
       <!-- header -->
+      <header>
 
+        <!-- header container -->
+        <div class="header-container">
+
+          <!-- navbar -->
+          <nav class="navbar w-100">
+
+            <div class="navbar-left">
+              <a href="#"><img src="img/logo-dark.png" alt=""></a>
+            </div>
+
+            <div class="navbar-center">
+              <div class="navbar-center-item"><a href="#">HOME</a></div>
+              <div class="navbar-center-item" v-for="item in nav">
+                <a href="#">{{item}} <i class="fas fa-chevron-down"></i></a>
+              </div>
+            </div>
+
+            <div class="navbar-right">
+              <div class="search-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="blue-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="blue-icon">
+                <i class="fab fa-stack-overflow"></i>
+              </div>
+              <div class="blue-icon">
+                <i class="far fa-user"></i>
+              </div>
+            </div>
+
+          </nav>
+          <!-- navbar -->
+
+        </div>
+        <!-- header container -->
+
+      </header>
       <!-- header -->
 
 
       <!-- jumbotron -->
+      <div class="jumbotron">
 
+      </div>
       <!-- jumbotron -->
 
 
       <!-- main -->
-
+      <main>
 
         <!-- main top -->
 
@@ -38,12 +85,12 @@
 
         <!-- main bottom -->
 
-
+      </main>
       <!-- main -->
 
 
       <!-- footer -->
-
+      <footer>
 
         <!-- footer top -->
 
@@ -54,7 +101,7 @@
 
         <!-- footer bottom -->
 
-        
+      </footer>
       <!-- footer -->
 
     </div>
