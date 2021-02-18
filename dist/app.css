@@ -87,3 +87,83 @@ header .header-container .navbar-right .blue-icon:hover {
 header .header-container .navbar-right .blue-icon:hover i {
   color: #fff;
 }
+
+.jumbotron {
+  width: 100%;
+  background: #F8F9FC;
+}
+.jumbotron .jumbotron-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.jumbotron .jumbotron-container-top {
+  display: flex;
+}
+.jumbotron .jumbotron-container-top-box {
+  width: 50%;
+  margin: 70px 0 130px 0;
+}
+.jumbotron .jumbotron-container-top .first-box {
+  padding-top: 100px;
+}
+.jumbotron .jumbotron-container-top .first-box div:first-child a {
+  background: #E4E9F8;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.jumbotron .jumbotron-container-top .first-box h2 {
+  margin: 20px 0 30px 0;
+  font-size: 30px;
+}
+.jumbotron .jumbotron-container-top .first-box p {
+  color: #8492A6;
+  margin-bottom: 30px;
+}
+.jumbotron .jumbotron-container-top .first-box button {
+  margin-right: 5px;
+  padding: 10px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.jumbotron .jumbotron-container-top .first-box button:first-of-type {
+  color: #fff;
+  background: #2F55D4;
+  border: none;
+}
+.jumbotron .jumbotron-container-top .first-box button:last-of-type {
+  color: #2F55D4;
+  background: #fff;
+  border: 1px solid #2F55D4;
+}
+.jumbotron .jumbotron-container-top .first-box div:last-child {
+  font-size: 13px;
+  color: #8492A6;
+  margin-top: 15px;
+}
+.jumbotron .jumbotron-container-top .second-box {
+  text-align: right;
+}
+.jumbotron .jumbotron-container-top .second-box img {
+  width: 85%;
+  margin-right: 40px;
+}
+.jumbotron .jumbotron-container-bottom {
+  height: 120px;
+  text-align: center;
+}
+.jumbotron .jumbotron-container-bottom img {
+  width: 80px;
+  margin: 50px 40px 0 40px;
+}
+
+.jumbotron:first-of-type {
+  border-bottom: 2px solid #E9E5EF;
+}
+
+.jumbotron:last-of-type {
+  border-radius: 0 0 30% 30%;
+}

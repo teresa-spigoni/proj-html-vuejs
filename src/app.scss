@@ -1,3 +1,4 @@
+// UTILITY -------------------------
 *{
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +16,9 @@ a{
 .w-100{
   width: 100%;
 }
+// ---------------------------------
 
+// MIXIN ---------------------------
 @mixin container {
   width: 1200px;
   margin: 0 auto;
@@ -27,7 +30,9 @@ a{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+// ---------------------------------
 
+// HEADER --------------------------
 header{
   width: 100%;
   background: #F8F9FC;
@@ -41,7 +46,6 @@ header{
       padding: 20px 0;
 
       &-left{
-
         img{
           height: 30px;
         }
@@ -49,7 +53,6 @@ header{
 
       &-center{
         display: flex;
-
 
         &-item{
           padding: 8px 18px 0 18px;
@@ -72,7 +75,6 @@ header{
       }
 
       &-right{
-
         .search-icon{
           position: relative;
           top: -12px;
@@ -112,9 +114,103 @@ header{
           }
         }
       }
+    }
+  }
+}
+// ---------------------------------
 
+// JUMBOTRON -----------------------
+.jumbotron{
+  width: 100%;
+  background: #F8F9FC;
+
+  .jumbotron-container{
+    @include container;
+
+    &-top{
+      display: flex;
+
+      &-box{
+        width: 50%;
+        margin: 70px 0 130px 0;
+      }
+
+      .first-box{
+        padding-top: 100px;
+
+        div:first-child a{
+          background: #E4E9F8;
+          border-radius: 10px;
+          padding: 5px 10px;
+          font-size: 10px;
+          font-weight: bold;
+        }
+
+        h2{
+          margin: 20px 0 30px 0;
+          font-size: 30px;
+        }
+
+        p{
+          color: #8492A6;
+          margin-bottom: 30px;
+        }
+
+        button{
+          margin-right: 5px;
+          padding: 10px 16px;
+          font-size: 12px;
+          font-weight: bold;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+
+        button:first-of-type{
+          color: #fff;
+          background: #2F55D4;
+          border: none;
+        }
+
+        button:last-of-type{
+          color: #2F55D4;
+          background: #fff;
+          border: 1px solid #2F55D4;
+        }
+
+        div:last-child{
+          font-size: 13px;
+          color: #8492A6;
+          margin-top: 15px;
+        }
+      }
+
+      .second-box{
+        text-align: right;
+
+        img{
+          width: 85%;
+          margin-right: 40px;
+        }
+      }
     }
 
-  }
+    &-bottom{
+      height: 120px;
+      text-align: center;
 
+      img{
+        width: 80px;
+        margin: 50px 40px 0 40px;
+      }
+    }
+  }
 }
+
+.jumbotron:first-of-type{
+  border-bottom: 2px solid #E9E5EF;
+}
+
+.jumbotron:last-of-type{
+  border-radius: 0 0 30% 30%;
+}
+// ---------------------------------
