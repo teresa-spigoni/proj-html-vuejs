@@ -186,7 +186,7 @@ header .header-container .navbar-right .blue-icon:hover i {
   margin-top: 100px;
 }
 .main-top .top h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 .main-top .top p {
@@ -232,6 +232,7 @@ header .header-container .navbar-right .blue-icon:hover i {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #2F55D4;
+  font-size: 25px;
 }
 .main-top .box-container .box .read-link {
   font-size: 12px;
@@ -245,6 +246,9 @@ header .header-container .navbar-right .blue-icon:hover i {
 .main-center-first-box .quickstart {
   font-weight: bold;
   padding-bottom: 20px;
+}
+.main-center-first-box h2 {
+  font-size: 30px;
 }
 .main-center-first-box p {
   color: #8492A6;
@@ -280,7 +284,7 @@ header .header-container .navbar-right .blue-icon:hover i {
   color: #8492A6;
   text-align: left;
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .main-center-first-box .box .bottom .green-text {
   color: #2ECA8B;
@@ -301,4 +305,52 @@ header .header-container .navbar-right .blue-icon:hover i {
 }
 .main-center-first-box i {
   color: #2ECA8B;
+}
+.main-center-second-box {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+.main-center-second-box .left, .main-center-second-box .right {
+  width: 50%;
+}
+.main-center-second-box .left {
+  padding-top: 60px;
+  padding-right: 50px;
+}
+.main-center-second-box .left h2 {
+  font-size: 30px;
+}
+.main-center-second-box .left p {
+  color: #8492A6;
+  margin: 30px 0 40px 0;
+  font-weight: bold;
+}
+.main-center-second-box .left .checked {
+  color: #8492A6;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.main-center-second-box .left .checked i {
+  color: #2F55D4;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.main-center-second-box .left button {
+  background: #2F55D4;
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.main-center-second-box .left button i {
+  font-size: 12px;
+}
+.main-center-second-box .right {
+  text-align: right;
+}
+.main-center-second-box .right img {
+  width: 80%;
 }

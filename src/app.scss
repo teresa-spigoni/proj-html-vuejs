@@ -240,7 +240,7 @@ header{
       margin-top: 100px;
 
       h2{
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 30px;
       }
 
@@ -283,6 +283,7 @@ header{
           i{
             @include center;
             color: #2F55D4;
+            font-size: 25px;
           }
         }
 
@@ -302,6 +303,10 @@ header{
       .quickstart{
         font-weight: bold;
         padding-bottom: 20px;
+      }
+
+      h2{
+        font-size: 30px;
       }
 
       p{
@@ -342,13 +347,12 @@ header{
           color: #8492A6;
           text-align: left;
           font-size: 16px;
-          margin-top: 10px;
+          margin-top: 15px;
 
           .green-text{
             color: #2ECA8B;
           }
         }
-
       }
 
       .organize{
@@ -373,12 +377,68 @@ header{
     }
 
     &-second-box{
+      width: 100%;
+      display: flex;
+      margin-top: 100px;
 
+      .left, .right{
+        width: 50%;
+      }
+
+      .left{
+        padding-top: 60px;
+        padding-right: 50px;
+
+        h2{
+          font-size: 30px;
+        }
+
+        p{
+          color: #8492A6;
+          margin: 30px 0 40px 0;
+          font-weight: bold;
+        }
+
+        .checked{
+          color: #8492A6;
+          font-weight: bold;
+          margin-bottom: 10px;
+
+          i{
+            color: #2F55D4;
+            margin-right: 5px;
+            font-size: 18px;
+          }
+        }
+
+        button{
+          background: #2F55D4;
+          margin-top: 30px;
+          padding: 10px 20px;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+
+          i{
+            font-size: 12px;
+          }
+        }
+      }
+
+      .right{
+        text-align: right;
+
+        img{
+          width: 80%;
+
+        }
+      }
     }
   }
 
   &-bottom{
-
+    
   }
 
 }
