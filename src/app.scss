@@ -127,6 +127,17 @@ header{
 .jumbotron{
   width: 100%;
   background: #F8F9FC;
+  position: relative;
+
+  .settings{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 14px;
+    border: 1px solid #E9E5EF;
+    padding: 5px 10px 5px 0;
+    border-radius: 0 70% 70% 0;
+  }
 
   .jumbotron-container{
     @include container;
