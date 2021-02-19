@@ -236,3 +236,69 @@ header .header-container .navbar-right .blue-icon:hover i {
 .main-top .box-container .box .read-link {
   font-size: 12px;
 }
+.main-center {
+  padding: 100px 0;
+}
+.main-center-first-box {
+  text-align: center;
+}
+.main-center-first-box .quickstart {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.main-center-first-box p {
+  color: #8492A6;
+  font-weight: bold;
+  width: 550px;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+}
+.main-center-first-box .box {
+  background: #3C4858;
+  margin: 50px auto 10px auto;
+  padding: 25px 20px 30px 20px;
+  width: 860px;
+  border-radius: 5px;
+}
+.main-center-first-box .box nav {
+  background: #4F5A69;
+  padding: 2.5px 0;
+  width: 820px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.main-center-first-box .box nav div {
+  color: #fff;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 10px 83px;
+}
+.main-center-first-box .box nav div:hover {
+  background: #3C4858;
+}
+.main-center-first-box .box .bottom {
+  color: #8492A6;
+  text-align: left;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.main-center-first-box .box .bottom .green-text {
+  color: #2ECA8B;
+}
+.main-center-first-box .organize {
+  display: inline-block;
+  margin-top: 20px;
+  color: #8492A6;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.main-center-first-box .work {
+  display: inline-block;
+  margin-top: 20px;
+  color: #8492A6;
+  margin-right: 520px;
+  font-size: 16px;
+}
+.main-center-first-box i {
+  color: #2ECA8B;
+}

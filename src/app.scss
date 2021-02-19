@@ -294,7 +294,87 @@ header{
   }
 
   &-center{
+    padding: 100px 0;
 
+    &-first-box{
+      text-align: center;
+
+      .quickstart{
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+
+      p{
+        color: #8492A6;
+        font-weight: bold;
+        width: 550px;
+        margin: 0 auto;
+        padding: 30px 0 30px 0;
+      }
+
+      .box{
+        background: #3C4858;
+        margin: 50px auto 10px auto;
+        padding: 25px  20px 30px 20px;
+        width: 860px;
+        border-radius: 5px;
+
+        nav{
+          background: #4F5A69;
+          padding: 2.5px 0;
+          width: 820px;
+          margin: 0 auto;
+          border-radius: 5px;
+
+          div{
+            color: #fff;
+            display: inline-block;
+            border-radius: 2px;
+            padding: 10px 83px;
+          }
+
+          div:hover{
+            background: #3C4858;
+          }
+        }
+
+        .bottom{
+          color: #8492A6;
+          text-align: left;
+          font-size: 16px;
+          margin-top: 10px;
+
+          .green-text{
+            color: #2ECA8B;
+          }
+        }
+
+      }
+
+      .organize{
+        display: inline-block;
+        margin-top: 20px;
+        color: #8492A6;
+        margin-right: 20px;
+        font-size: 16px;
+      }
+
+      .work{
+        display: inline-block;
+        margin-top: 20px;
+        color: #8492A6;
+        margin-right: 520px;
+        font-size: 16px;
+      }
+
+      i{
+        color: #2ECA8B;
+      }
+    }
+
+    &-second-box{
+
+    }
   }
 
   &-bottom{
@@ -303,3 +383,28 @@ header{
 
 }
 // ---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
