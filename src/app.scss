@@ -438,9 +438,139 @@ header{
   }
 
   &-bottom{
-    
-  }
 
+    .section-one{
+      text-align: center;
+
+      h2{
+        font-size: 30px;
+      }
+
+      p{
+        font-size: 16px;
+        color: #8492A6;
+        font-weight: bold;
+        margin-top: 20px;
+
+      }
+      span{
+        color: #2F55D4;
+      }
+    }
+
+    .section-two{
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 0 80px 0;
+
+      .box{
+        width: calc((100% / 3) - 20px);
+        border: 1px solid #E9E5EF;
+        padding: 30px 20px;
+        border-radius: 10px;
+        box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+
+        .top{
+          border-bottom: 1px solid #E9E5EF;
+          padding-bottom: 5px;
+
+          a{
+            font-size: 13px;
+            font-weight: bold;
+            background: #E4E9F8;
+            border-radius: 20px;
+            padding: 10px 15px;
+          }
+
+          h2{
+            margin: 20px 0 10px 0;
+          }
+
+          span{
+            color: #8492A6;
+          }
+
+          p{
+            color: #8492A6;
+            margin: 10px 0;
+          }
+        }
+
+        .bottom{
+          color: #8492A6;
+          padding-top: 10px;
+
+          .checked{
+            margin-top: 6px;
+          }
+
+          i{
+            color: #2F55D4;
+            margin-right: 5px;
+          }
+
+          button{
+            cursor: pointer;
+            width: 100%;
+            margin: 18px 0;
+            border-radius: 5px;
+            border: none;
+            padding: 8px 0;
+            color: #fff;
+            background: #2F55D4;
+          }
+        }
+      }
+    }
+
+    .section-three{
+      text-align: center;
+      margin-bottom: 100px;
+
+      h2{
+        font-size: 30px;
+      }
+
+      p{
+        color: #8492A6;
+        font-weight: bold;
+        margin: 10px 0;
+
+        span{
+          color: #2F55D4;
+        }
+      }
+
+      .mail-input{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px auto 20px auto;
+        padding: 5px 5px 5px 15px;
+        border: 2px solid #F8F9FC;
+        border-radius: 20px;
+        width: 500px;
+
+        input{
+          border: none;
+          font-size: 15px;
+        }
+
+        input:focus{
+          outline: none;
+        }
+
+        button{
+          cursor: pointer;
+          background: #2F55D4;
+          color: #fff;
+          font-size: 14px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
 }
 // ---------------------------------
 

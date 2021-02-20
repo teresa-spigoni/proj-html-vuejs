@@ -354,3 +354,112 @@ header .header-container .navbar-right .blue-icon:hover i {
 .main-center-second-box .right img {
   width: 80%;
 }
+.main-bottom .section-one {
+  text-align: center;
+}
+.main-bottom .section-one h2 {
+  font-size: 30px;
+}
+.main-bottom .section-one p {
+  font-size: 16px;
+  color: #8492A6;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.main-bottom .section-one span {
+  color: #2F55D4;
+}
+.main-bottom .section-two {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 80px 0;
+}
+.main-bottom .section-two .box {
+  width: calc((100% / 3) - 20px);
+  border: 1px solid #E9E5EF;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+.main-bottom .section-two .box .top {
+  border-bottom: 1px solid #E9E5EF;
+  padding-bottom: 5px;
+}
+.main-bottom .section-two .box .top a {
+  font-size: 13px;
+  font-weight: bold;
+  background: #E4E9F8;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.main-bottom .section-two .box .top h2 {
+  margin: 20px 0 10px 0;
+}
+.main-bottom .section-two .box .top span {
+  color: #8492A6;
+}
+.main-bottom .section-two .box .top p {
+  color: #8492A6;
+  margin: 10px 0;
+}
+.main-bottom .section-two .box .bottom {
+  color: #8492A6;
+  padding-top: 10px;
+}
+.main-bottom .section-two .box .bottom .checked {
+  margin-top: 6px;
+}
+.main-bottom .section-two .box .bottom i {
+  color: #2F55D4;
+  margin-right: 5px;
+}
+.main-bottom .section-two .box .bottom button {
+  cursor: pointer;
+  width: 100%;
+  margin: 18px 0;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 0;
+  color: #fff;
+  background: #2F55D4;
+}
+.main-bottom .section-three {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.main-bottom .section-three h2 {
+  font-size: 30px;
+}
+.main-bottom .section-three p {
+  color: #8492A6;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.main-bottom .section-three p span {
+  color: #2F55D4;
+}
+.main-bottom .section-three .mail-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto 20px auto;
+  padding: 5px 5px 5px 15px;
+  border: 2px solid #F8F9FC;
+  border-radius: 20px;
+  width: 500px;
+}
+.main-bottom .section-three .mail-input input {
+  border: none;
+  font-size: 15px;
+}
+.main-bottom .section-three .mail-input input:focus {
+  outline: none;
+}
+.main-bottom .section-three .mail-input button {
+  cursor: pointer;
+  background: #2F55D4;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
