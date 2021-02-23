@@ -25,10 +25,16 @@ new Vue({
       {"name": "Changelog"},
       {"name": "Components"}
     ],
+    theNewsletter: '',
     newsletter: ''
   },
   methods: {
     newsletterSubmit: function () {
+      if (this.theNewsletter !== '') {
+        console.log('email aggiunta: ' + this.theNewsletter);
+      }
+      this.theNewsletter = '';
+      
       if (this.newsletter !== '') {
         console.log('email aggiunta: ' + this.newsletter);
       }
