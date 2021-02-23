@@ -189,9 +189,16 @@ header .header-container .navbar-right .blue-icon:hover i {
   background: #E94649;
   border: none;
 }
+.jumbotron .jumbotron-container-top .first-box button:first-of-type:hover {
+  background: #FF283A;
+}
 .jumbotron .jumbotron-container-top .first-box button:last-of-type {
   color: #E94649;
   background: none;
+}
+.jumbotron .jumbotron-container-top .first-box button:last-of-type:hover {
+  color: #FF283A;
+  border: 1px solid #FF283A;
 }
 .jumbotron .jumbotron-container-top .first-box .version {
   font-size: 13px;
@@ -240,16 +247,25 @@ header .header-container .navbar-right .blue-icon:hover i {
   margin-bottom: 80px;
   color: #8492A6;
 }
-.main-top .box-container {
-  display: flex;
-  justify-content: space-between;
+.main-top .top p span {
+  color: #E94649;
 }
 .main-top .box-container .box {
+  position: relative;
   padding: 20px;
   border: 1px solid #E9E5EF;
   border-radius: 7px;
   width: calc((100% / 4) - 34px);
   font-weight: bold;
+}
+.main-top .box-container .box .back-hover {
+  display: none;
+  z-index: -1;
+  position: absolute;
+  font-size: 200px;
+  top: 20px;
+  left: 40px;
+  color: #F8F9FC;
 }
 .main-top .box-container .box h3 {
   color: #3C4858;
@@ -281,6 +297,13 @@ header .header-container .navbar-right .blue-icon:hover i {
 }
 .main-top .box-container .box .read-link {
   font-size: 12px;
+  color: #E94649;
+}
+.main-top .box-container .box:hover {
+  margin: -20px 0 20px 0;
+}
+.main-top .box-container .box:hover .back-hover {
+  display: block;
 }
 .main-center {
   padding: 100px 0;
@@ -338,26 +361,21 @@ header .header-container .navbar-right .blue-icon:hover i {
 .main-center-first-box .box .bottom .green-text {
   color: #2ECA8B;
 }
-.main-center-first-box .organize {
-  display: inline-block;
+.main-center-first-box .text {
   margin-top: 20px;
   color: #8492A6;
-  margin-right: 20px;
   font-size: 16px;
 }
-.main-center-first-box .work {
-  display: inline-block;
-  margin-top: 20px;
-  color: #8492A6;
-  margin-right: 520px;
-  font-size: 16px;
-}
-.main-center-first-box i {
+.main-center-first-box .text i {
   color: #2ECA8B;
 }
+.main-center-first-box .organize {
+  margin-right: 20px;
+}
+.main-center-first-box .work {
+  margin-right: 520px;
+}
 .main-center-second-box {
-  width: 100%;
-  display: flex;
   margin-top: 100px;
 }
 .main-center-second-box .left, .main-center-second-box .right {
@@ -396,6 +414,9 @@ header .header-container .navbar-right .blue-icon:hover i {
 }
 .main-center-second-box .left button i {
   font-size: 12px;
+}
+.main-center-second-box .left button:hover {
+  background: #FF283A;
 }
 .main-center-second-box .right {
   text-align: right;
@@ -441,6 +462,7 @@ header .header-container .navbar-right .blue-icon:hover i {
   padding: 10px 15px;
 }
 .main-bottom .section-two .box .top h2 {
+  font-size: 40px;
   margin: 20px 0 10px 0;
 }
 .main-bottom .section-two .box .top span {
@@ -468,6 +490,28 @@ header .header-container .navbar-right .blue-icon:hover i {
   padding: 8px 0;
   color: #fff;
   background: #E94649;
+}
+.main-bottom .section-two .box:hover {
+  margin: -20px 0;
+  box-shadow: 0 3px 0 #E94649;
+}
+.main-bottom .section-two .box:hover button {
+  background: #FF283A;
+}
+.main-bottom .section-two .second-box {
+  position: relative;
+  overflow: hidden;
+}
+.main-bottom .section-two .second-box .best {
+  position: absolute;
+  top: 2px;
+  right: -33px;
+  transform: rotate(45deg);
+  color: #fff;
+  background: #F17425;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 40px;
 }
 .main-bottom .section-three {
   text-align: center;
@@ -502,6 +546,9 @@ header .header-container .navbar-right .blue-icon:hover i {
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
+}
+.main-bottom .section-three .mail-input button:hover {
+  background: #FF283A;
 }
 
 footer {
@@ -576,6 +623,9 @@ footer .footer-container-top .box .subscribe {
   box-shadow: 0 2px 4px rgba(233, 70, 73, 0.5);
   color: #E94649;
   font-size: 16px;
+}
+footer .footer-container-top .box .subscribe:hover {
+  color: #FF283A;
 }
 footer .footer-container-top .box label {
   font-size: 14px;
@@ -681,6 +731,7 @@ footer:first-of-type {
 }
 
 .go-top-button:hover {
+  background: #FF283A;
   -webkit-animation: semirotation 1s linear;
           animation: semirotation 1s linear;
   -webkit-animation-fill-mode: forwards;
