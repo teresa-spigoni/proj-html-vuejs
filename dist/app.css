@@ -463,3 +463,133 @@ header .header-container .navbar-right .blue-icon:hover i {
   border: none;
   border-radius: 20px;
 }
+
+footer {
+  background: #202942;
+  width: 100%;
+  padding: 20px 0;
+  color: #ADB5BD;
+}
+footer .footer-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+footer .footer-container-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 20px 0;
+}
+footer .footer-container-top .box {
+  width: calc((100% / 3) - 20px);
+}
+footer .footer-container-top .box img {
+  height: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-container-top .box p {
+  margin-bottom: 20px;
+}
+footer .footer-container-top .box label {
+  font-size: 14px;
+}
+footer .footer-container-top .box label span {
+  color: #E43F52;
+}
+footer .footer-container-top .box .news-input {
+  width: 100%;
+  background: #27314F;
+  padding: 10px 20px;
+  margin: 5px 0 15px 0;
+  border-radius: 7px;
+}
+footer .footer-container-top .box .news-input input {
+  background: none;
+  border: none;
+  color: #ADB5BD;
+  margin-left: 5px;
+}
+footer .footer-container-top .box .news-input input::-moz-placeholder {
+  color: #ADB5BD;
+}
+footer .footer-container-top .box .news-input input:-ms-input-placeholder {
+  color: #ADB5BD;
+}
+footer .footer-container-top .box .news-input input::placeholder {
+  color: #ADB5BD;
+}
+footer .footer-container-top .box .news-input input:focus {
+  outline: none;
+}
+footer .footer-container-top .box .social-icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  border: 1px solid #ADB5BD;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+footer .footer-container-top .box .social-icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer .footer-container-top .box h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+footer .footer-container-top .box .links {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+footer .footer-container-top .box .links .item {
+  padding: 5px 0;
+  font-size: 16px;
+}
+footer .footer-container-top .box .links .item i {
+  font-size: 10px;
+  margin-right: 5px;
+}
+footer .footer-container-top .link-box {
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-container-top .news-box {
+  padding-left: 80px;
+}
+footer .footer-container-top .news-box button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 7px;
+  background: #27314F;
+  border: none;
+  box-shadow: 0 2px 4px #2F55D4;
+  color: #2F55D4;
+  font-size: 16px;
+}
+footer .footer-container-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px 0;
+}
+footer .footer-container-bottom .left {
+  font-size: 12px;
+}
+footer .footer-container-bottom .left i {
+  font-size: 10px;
+}
+footer .footer-container-bottom .left .fa-heart {
+  color: #E43F52;
+}
+footer .footer-container-bottom .right img {
+  width: 30px;
+}
+
+footer:first-of-type {
+  border-bottom: 1px solid #27314F;
+}

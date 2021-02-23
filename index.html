@@ -317,14 +317,77 @@
       <!-- footer -->
       <footer>
 
-        <!-- footer top -->
+        <!-- footer container -->
+        <div class="footer-container">
 
-        <!-- footer top -->
+          <!-- footer top -->
+          <div class="footer-container-top">
 
+            <div class="box">
+              <img src="img/logo-light.png" alt="">
+              <p>Start working with Landrick taht can provide everything you need to generate awareness, drive traffic, connect.</p>
+              <div v-for="icon in social" class="social-icon">
+                <i :class="icon.name"></i>
+              </div>
+            </div>
 
+            <div class="box link-box">
+              <div class="links">
+                <h3>Company</h3>
+                <div v-for="item in company" class="item">
+                  <i class="fas fa-chevron-right"></i> {{item.option}}
+                </div>
+              </div>
+
+              <div class="links">
+                <h3>Usefull Links</h3>
+                <div v-for="link in usefullLinks" class="item">
+                  <i class="fas fa-chevron-right"></i> {{link.name}}
+                </div>
+              </div>
+            </div>
+
+            <div class="box news-box">
+              <h3>Newsletter</h3>
+              <p>Sign up and receive the latest tips via email.</p>
+              <label for="newsletter">Write your email <span>*</span></label>
+              <div class="news-input">
+                <i class="far fa-envelope"></i>
+                <input id="newsletter" placeholder="Your email:">
+              </div>
+              <button>Subscribe</button>
+            </div>
+
+          </div>
+          <!-- footer top -->
+
+        </div>
+
+      </footer>
+
+      <footer>
         <!-- footer bottom -->
+        <div class="footer-container">
 
-        <!-- footer bottom -->
+          <div class="footer-container-bottom">
+
+            <div class="left">
+              <i class="far fa-copyright"></i> 2020 Landrick. Designed with <i class="fas fa-heart"></i> by Shreethemes.
+            </div>
+
+            <div class="right">
+              <img src="img/american-ex.png" alt="">
+              <img src="img/discover.png" alt="">
+              <img src="img/master-card.png" alt="">
+              <img src="img/paypal.png" alt="">
+              <img src="img/visa.png" alt="">
+            </div>
+
+          </div>
+          <!-- footer bottom -->
+
+        </div>
+        <!-- footer container -->
 
       </footer>
       <!-- footer -->

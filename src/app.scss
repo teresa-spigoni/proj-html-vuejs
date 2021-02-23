@@ -574,12 +574,158 @@ header{
 }
 // ---------------------------------
 
+// FOOTER --------------------------
+footer{
+  background: #202942;
+  width: 100%;
+  padding: 20px 0;
+  color: #ADB5BD;
+
+  .footer-container{
+    @include container;
+
+    &-top{
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0 20px 0;
+
+      .box{
+        width: calc((100% / 3) - 20px);
+
+        img{
+          height: 20px;
+          margin-bottom: 20px;
+        }
+
+        p{
+          margin-bottom: 20px;
+        }
+
+        label{
+          font-size: 14px;
+
+          span{
+            color: #E43F52;
+          }
+        }
+
+        .news-input{
+          width: 100%;
+          background: #27314F;
+          padding: 10px 20px;
+          margin: 5px 0 15px 0;
+          border-radius: 7px;
+
+          input{
+            background: none;
+            border: none;
+            color: #ADB5BD;
+            margin-left: 5px;
+
+            &::placeholder{
+              color: #ADB5BD;
+            }
+          }
+
+          input:focus{
+            outline: none;
+          }
+        }
+
+        .social-icon{
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          position: relative;
+          border: 1px solid #ADB5BD;
+          border-radius: 8px;
+          margin-right: 5px;
+
+          i{
+            @include center;
+          }
+        }
+
+        h3{
+          font-size: 18px;
+          color: #fff;
+          font-weight: normal;
+          margin-bottom: 20px;
+        }
+
+        .links{
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 30px;
+
+          .item{
+            padding: 5px 0;
+            font-size: 16px;
+
+            i{
+              font-size: 10px;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+
+      .link-box{
+        padding-left: 80px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .news-box{
+        padding-left: 80px;
+
+        button{
+          width: 100%;
+          padding: 10px 0;
+          border-radius: 7px;
+          background: #27314F;
+          border: none;
+          box-shadow: 0 2px 4px #2F55D4;
+          color: #2F55D4;
+          font-size: 16px;
+        }
+      }
+    }
+
+    &-bottom{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0 20px 0;
+
+      .left{
+        font-size: 12px;
+
+        i{
+          font-size: 10px;
+        }
+
+        .fa-heart{
+          color: #E43F52;
+        }
+      }
+
+      .right{
+        img{
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+
+footer:first-of-type{
+  border-bottom: 1px solid #27314F;
+}
+// ---------------------------------
 
 
 
-
-
-
+// TODO: cambiare 2f55d in e94649
 
 
 
