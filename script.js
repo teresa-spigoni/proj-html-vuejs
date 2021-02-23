@@ -24,7 +24,16 @@ new Vue({
       {"name": "Documentation"},
       {"name": "Changelog"},
       {"name": "Components"}
-    ]
+    ],
+    newsletter: ''
+  },
+  methods: {
+    newsletterSubmit: function () {
+      if (this.newsletter !== '') {
+        console.log('email aggiunta: ' + this.newsletter);
+      }
+      this.newsletter = '';
+    }
   }
 });
 Vue.config.devtools = true;
